@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="consumables" table="x_snc_it_asset_man_asset_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>consumables</element>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:38:17</sys_created_on>
+            <sys_id>e080009bc3665a106dd09d777d0131e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>consumables</sys_name>
+            <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
+            <sys_update_name>sys_choice_x_snc_it_asset_man_asset_request_consumables</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:38:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ups</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eaton</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ed1481fc3665a106dd09d777d01311b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:37</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ups</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ABB</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:43:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db910c5bc3665a106dd09d777d01310e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:37</sys_updated_on>
+            <value>abb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>printer</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canon</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:42:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d34188dbc3665a106dd09d777d01311b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:26</sys_updated_on>
+            <value>canon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>printer</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Epson</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:42:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>816148dbc3665a106dd09d777d013108</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:26</sys_updated_on>
+            <value>epson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>printer</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HP</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:41:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0831009bc3665a106dd09d777d01319d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:26</sys_updated_on>
+            <value>hp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>computer</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keyboard</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:38:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>586f3fc7c3665a106dd09d777d013184</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:46:10</sys_updated_on>
+            <value>keyboard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network gear</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Modem</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:41:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb01009bc3665a106dd09d777d01319c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:46:31</sys_updated_on>
+            <value>modem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>computer</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mouse</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:38:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0800c97c3665a106dd09d777d013110</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:46:10</sys_updated_on>
+            <value>mouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network gear</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network Switch</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:40:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fa0c85bc3665a106dd09d777d013148</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:46:31</sys_updated_on>
+            <value>network_switch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network gear</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Router</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:40:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fe00cdbc3665a106dd09d777d0131e1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:46:31</sys_updated_on>
+            <value>router</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ups</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schneider Electric</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50c188dbc3665a106dd09d777d01311c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:37</sys_updated_on>
+            <value>schneider_electric</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>computer</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Speaker</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:39:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ca0009bc3665a106dd09d777d01315f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:46:10</sys_updated_on>
+            <value>speaker</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ups</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vertiv Group</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:45:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16f1445fc3665a106dd09d777d0131c9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:37</sys_updated_on>
+            <value>vertiv_group</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>printer</dependent_value>
+            <element>consumables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Xerox</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 09:43:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4481041fc3665a106dd09d777d01314e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 09:47:26</sys_updated_on>
+            <value>xerox</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

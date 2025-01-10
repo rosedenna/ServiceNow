@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 08:34:21</sys_created_on>
+        <sys_id>0ce17b0bc3265a106dd09d777d013161</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_it_asset_man_asset_request.it.asset.users</sys_name>
+        <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
+        <sys_security_acl display_value="x_snc_it_asset_man_asset_request">c8e17b0bc3265a106dd09d777d01315e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0ce17b0bc3265a106dd09d777d013161</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 08:34:21</sys_updated_on>
+        <sys_user_role display_value="it.asset.users" name="it.asset.users">7e8c2783c3265a106dd09d777d013176</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

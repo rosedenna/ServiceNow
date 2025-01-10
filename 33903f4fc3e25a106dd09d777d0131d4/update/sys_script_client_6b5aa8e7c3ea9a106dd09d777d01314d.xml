@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>If the Requestor is VIP the automaticity is set to P1 and highlights the&#13;
+requestor field with red background color.</description>
+        <field>requestor</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>requestor Vip, priority  1, reqfield red</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+   g_form.getReference('requestor',onAlert); 
+	
+
+      return;
+   }
+   
+
+   //Type appropriate comment here, and begin script below
+
+	g_form.getReference('requestor',onAlert);
+
+   function onAlert(vipfield){
+	var staus = vipfield.vip ;
+	if ( staus == 'true' ){
+		//var company = g_form.getControl('requestor');
+		g_form.setValue('priority','1');
+		//staus.style.backgroundColor = "red";
+		var myField = 'requestor';
+		var ctrl = g_form.getElement('sys_display.' + g_form.getControl(myField).id);
+		ctrl.style.backgroundColor = 'red';
+
+		}
+	}
+
+function onAlert(vipfield){
+	var staus = vipfield.vip ;
+	if ( staus == 'true' ){
+		//var company = g_form.getControl('requestor');
+		g_form.setValue('priority','1');
+		//staus.style.backgroundColor = "red";
+		var myField = 'requestor';
+		var ctrl = g_form.getElement('sys_display.' + g_form.getControl(myField).id);
+		ctrl.style.backgroundColor = 'red';
+
+		}
+}
+}  ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 07:24:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b5aa8e7c3ea9a106dd09d777d01314d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>requestor Vip, priority  1, reqfield red</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
+        <sys_update_name>sys_script_client_6b5aa8e7c3ea9a106dd09d777d01314d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-25 05:22:46</sys_updated_on>
+        <table>x_snc_it_asset_man_asset_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
