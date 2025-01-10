@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>create cmdb,hardware,consumables table using glide ajax method and script include.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>create cmdb using scriptinclude</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+
+   var form = g_form.isNewRecord();
+   var sys=g_form.getUniqueValue();
+   alert("NEW: "+form+" Type: "+typeof form);
+   
+   if (form == true){
+	alert(sys);
+	try{
+	var ga=new GlideAjax("createcmdb");
+	ga.addParam("sysparm_name","createtable");
+	ga.addParam("sysof",sys);
+	ga.getXMLAnswer(tables);
+	}
+	catch(ex){
+		alert("ERROR: "+ex.message);
+	}
+   }
+}
+function tables(response){
+
+	alert(response);
+	
+}
+		
+	
+   
+
+
+   
+
+   
+   
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 15:30:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebc29121c33616506dd09d777d0131e8</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>create cmdb using scriptinclude</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
+        <sys_update_name>sys_script_client_ebc29121c33616506dd09d777d0131e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 06:38:02</sys_updated_on>
+        <table>x_snc_it_asset_man_asset_request</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

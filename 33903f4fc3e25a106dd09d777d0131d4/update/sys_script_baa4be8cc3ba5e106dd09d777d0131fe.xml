@@ -45,7 +45,7 @@
 	grCmdb.initialize();
 	grCmdb.manufacturer=current.requestor.company;
 	grCmdb.department=current.requestor.department;
-	grCmdb.assigned_to=current.requestor.name;
+	grCmdb.assigned_to=current.requestor;
 	var db = grCmdb.insert();
 	current.asset = db;
 
@@ -92,7 +92,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>baa4be8cc3ba5e106dd09d777d0131fe</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>For each asset type  create  CMBD record</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
@@ -100,7 +100,7 @@
         <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
         <sys_update_name>sys_script_baa4be8cc3ba5e106dd09d777d0131fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-26 12:10:39</sys_updated_on>
+        <sys_updated_on>2025-01-01 06:40:23</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

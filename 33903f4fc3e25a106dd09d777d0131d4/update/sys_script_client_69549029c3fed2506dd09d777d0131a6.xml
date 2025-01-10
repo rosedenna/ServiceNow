@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>when priority is changed  with role of itil.</description>
+        <field>priority</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>change shortdis when priority change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var ga =new GlideAjax("changepriority");
+   ga.addParam("sysparm_name",'prioritychange');
+   ga.addParam("current",newValue);
+   ga.getXMLAnswer(short);
+
+   function short(response){
+	if(response == '1'){
+		g_form.setValue("short_discription","critical");
+		
+	}
+	else if(response == '2'){
+		g_form.setValue("short_discription","moderate");
+	}
+	else if(response == '3'){
+		g_form.setValue("short_discription","low");
+	}
+	else{
+		g_form.setValue("short_discription","Not selected a valid priority");
+
+	}
+
+   }
+   
+
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 11:20:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69549029c3fed2506dd09d777d0131a6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>change shortdis when priority change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
+        <sys_update_name>sys_script_client_69549029c3fed2506dd09d777d0131a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 11:27:32</sys_updated_on>
+        <table>x_snc_it_asset_man_asset_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

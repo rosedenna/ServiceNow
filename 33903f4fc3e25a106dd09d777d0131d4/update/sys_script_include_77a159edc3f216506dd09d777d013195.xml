@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_snc_it_asset_man.createcmdb</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>createcmdb</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var createcmdb = Class.create();
+createcmdb.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+createtable : function(){
+	try{
+
+gs.info("CREATE ASSET STARTED");
+	gs.sleep(2000);
+	var syss =this.getParameter("sysof");
+
+	
+
+	var current = new GlideRecord("x_snc_it_asset_man_asset_request");
+	current.addQuery("sys_id","STARTSWITH",syss);
+	current.query();
+	gs.info("CREATE ASSET ROW COUNT: "+current.getRowCount());
+	if(current.next()){
+
+	var assetType=current.getDisplayValue("type_of_asset");
+	var firstTable='';
+	
+
+	var gr = new GlideRecord('sys_db_object');
+	gr.addQuery('label',assetType);
+	gr.addQuery('name','STARTSWITH','cmdb_ci_');
+	gr.setLimit(1);
+	gr.query();
+	if(gr.next()){
+		firstTable=gr.name;
+	}
+
+	var grCmdb= new GlideRecord(firstTable);
+	grCmdb.initialize();
+	grCmdb.manufacturer=current.requestor.company;
+	grCmdb.department=current.requestor.department;
+	grCmdb.assigned_to=current.requestor;
+	var db = grCmdb.insert();
+	current.asset = db;
+
+
+	var grAlmHardware= new GlideRecord('alm_hardware');
+	grAlmHardware.initialize();
+	grAlmHardware.manufacturer=current.requestor.company;
+	grAlmHardware.department=current.requestor.department;
+	grAlmHardware.assigned_to=current.requestor;
+	grAlmHardware.ci=db;
+	grAlmHardware.install_status='2';
+	var hardware=grAlmHardware.insert();
+	
+
+	var grCmdbModel = new GlideRecord('cmdb_model');
+	grCmdbModel.initialize();
+	grCmdbModel.manufacturer=current.requestor.company;
+	grCmdbModel.cmdb_model_category='218323293743100044e0bfc8bcbe5d61';
+	grCmdbModel.name=current.consumables.getDisplayValue();
+
+	var model = grCmdbModel.insert();
+
+
+	var grConsumables= new GlideRecord('alm_consumable');
+	grConsumables.initialize();
+	grConsumables.model=model;
+	grConsumables.model_category='218323293743100044e0bfc8bcbe5d61';
+	grConsumables.parent=hardware;
+	grConsumables.assigned_to=current.requestor;
+	grConsumables.location=current.requestor.location;
+	grConsumables.install_status='2';
+	
+	grConsumables.insert();
+
+	current.update();
+
+		}
+
+		gs.info("CREATE ASSET Completed: "+current.asset +" : "+hardware+ " : "+model);
+
+	return "true";
+
+	}
+	catch(ex){
+		gs.info("CREATE ASSET ERROR OCCURED: "+ex.message);
+	}
+
+
+	
+},
+
+// getTheValue : function(sample){
+		
+		
+
+// 		var gr =new GlideRecord('sys_choice');
+// 		gr.addQuery("sys_id","STARTSWITH",sample);
+// 		gr.query();
+// 		if(gr.next()){
+// 			var displayvalue = gr.name;
+// 			return displayvalue;
+// 		}
+
+
+
+// 	},
+
+
+    type: 'createcmdb'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 15:33:52</sys_created_on>
+        <sys_id>77a159edc3f216506dd09d777d013195</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>createcmdb</sys_name>
+        <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
+        <sys_update_name>sys_script_include_77a159edc3f216506dd09d777d013195</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 06:37:49</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>77a159edc3f216506dd09d777d013195</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 15:33:51</sys_created_on>
+        <sys_id>250591e1c33616506dd09d777d0131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 15:33:51</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

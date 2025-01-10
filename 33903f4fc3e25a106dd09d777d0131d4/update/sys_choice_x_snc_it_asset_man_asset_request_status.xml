@@ -41,6 +41,26 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_snc_it_asset_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-10 05:18:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c91b3f0c38b92106dd09d777d0131a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 05:18:06</sys_updated_on>
+            <value>Closed_incomplete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Delivered</label>
             <language>en</language>
             <name>x_snc_it_asset_man_asset_request</name>

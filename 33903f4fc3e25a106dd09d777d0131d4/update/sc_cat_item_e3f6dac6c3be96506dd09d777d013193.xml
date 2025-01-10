@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>This request form is to create or update or retire ServiceNow groups.</p>
+<p>the group manager is responsible to handle and administrate the group.</p>
+<p><img src="/sys_attachment.do?sys_id&#61;afd52e4ac3fe96506dd09d777d013133" alt="" width="400" height="400" /></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>servicenowgroupmanagement(create/update/delete)</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e3f6dac6c3be96506dd09d777d013193&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Service Group Management</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 09:40:57</sys_created_on>
+        <sys_id>e3f6dac6c3be96506dd09d777d013193</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>servicenowgroupmanagement(create/update/delete)</sys_name>
+        <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
+        <sys_update_name>sc_cat_item_e3f6dac6c3be96506dd09d777d013193</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-02 05:07:05</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>27</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="group management v1.0">5b45de9ec3321a506dd09d777d013116</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3f6dac6c3be96506dd09d777d013193"/>
+    <fx_price action="delete_multiple" query="id=e3f6dac6c3be96506dd09d777d013193"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>e3f6dac6c3be96506dd09d777d013193</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 09:40:58</sys_created_on>
+        <sys_id>fb67560ac3be96506dd09d777d01311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 09:40:58</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>e3f6dac6c3be96506dd09d777d013193</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 09:40:59</sys_created_on>
+        <sys_id>bf67560ac3be96506dd09d777d01311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 09:40:59</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#c68e8e</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>images.jpg</file_name>
+        <hash>1a527c244d0c500ff961d82fcbec18b908db9eb896ad1440ea2c8dfece3a4552</hash>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>5061</size_bytes>
+        <size_compressed>4973</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 10:44:02</sys_created_on>
+        <sys_id>afd52e4ac3fe96506dd09d777d013133</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 10:44:03</sys_updated_on>
+        <table_name>sc_cat_item</table_name>
+        <table_sys_id>e3f6dac6c3be96506dd09d777d013193</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="images.jpg" sys_id="afd52e4ac3fe96506dd09d777d013133">afd52e4ac3fe96506dd09d777d013133</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 10:44:02</sys_created_on>
+        <sys_id>efd52e4ac3fe96506dd09d777d013133</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6620</length>
+        <position>1</position>
+        <sys_attachment display_value="images.jpg" sys_id="afd52e4ac3fe96506dd09d777d013133">afd52e4ac3fe96506dd09d777d013133</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 10:44:02</sys_created_on>
+        <sys_id>63d52e4ac3fe96506dd09d777d013134</sys_id>
+    </sys_attachment_doc>
+</record_update>
