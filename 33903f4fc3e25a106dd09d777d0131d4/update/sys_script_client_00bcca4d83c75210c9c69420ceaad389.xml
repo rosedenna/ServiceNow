@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Only the Assigned to user can change the state of the record.</description>
+        <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Assigned user can only change state</name>
+        <name>Hide Closed Incomplete</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   var assignedTo = g_form.getValue('')
-   alert("assigned user is"+assignedTo);
-   
+    //Type appropriate comment here, and begin script below
+    if (g_form.getValue('status') != 'Closed Incomplete') {
+        g_form.removeOption('status', 'Closed Incomplete');
+
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-24 07:38:20</sys_created_on>
+        <sys_created_on>2025-01-10 16:36:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3fbdac2bc3ea9a106dd09d777d01319b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Assigned user can only change state</sys_name>
+        <sys_id>00bcca4d83c75210c9c69420ceaad389</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hide Closed Incomplete</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
-        <sys_update_name>sys_script_client_3fbdac2bc3ea9a106dd09d777d01319b</sys_update_name>
+        <sys_update_name>sys_script_client_00bcca4d83c75210c9c69420ceaad389</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 16:41:50</sys_updated_on>
+        <sys_updated_on>2025-01-11 06:17:02</sys_updated_on>
         <table>x_snc_it_asset_man_asset_request</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

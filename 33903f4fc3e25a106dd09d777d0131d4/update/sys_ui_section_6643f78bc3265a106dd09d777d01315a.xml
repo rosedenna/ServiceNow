@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>a6b670a4c3f6de106dd09d777d01313c</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>d6829645830b5210c9c69420ceaad3f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>opened_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>2eb670a4c3f6de106dd09d777d01313c</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>92829645830b5210c9c69420ceaad3f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>type_of_asset</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>a2b670a4c3f6de106dd09d777d01313d</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>1a829645830b5210c9c69420ceaad3f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>consumables</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>2ab670a4c3f6de106dd09d777d01313d</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>d6821a45830b5210c9c69420ceaad373</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,111 +60,111 @@
             <element>priority</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>aeb670a4c3f6de106dd09d777d01313d</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>5e821a45830b5210c9c69420ceaad373</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requestor</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>26b670a4c3f6de106dd09d777d01313e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>aab670a4c3f6de106dd09d777d01313e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>company</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>22b670a4c3f6de106dd09d777d01313f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>a6b670a4c3f6de106dd09d777d01313f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>asset</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>2eb670a4c3f6de106dd09d777d01313f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>10</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>a2b670a4c3f6de106dd09d777d013140</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>d2821a45830b5210c9c69420ceaad374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>11</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>2ab670a4c3f6de106dd09d777d013140</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>5a821a45830b5210c9c69420ceaad374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requestor</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>de821a45830b5210c9c69420ceaad374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>56821a45830b5210c9c69420ceaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>da821a45830b5210c9c69420ceaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>52821a45830b5210c9c69420ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>d6821a45830b5210c9c69420ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>description</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 10:47:34</sys_created_on>
-            <sys_id>aeb670a4c3f6de106dd09d777d013140</sys_id>
+            <sys_created_on>2025-01-10 17:01:21</sys_created_on>
+            <sys_id>5e821a45830b5210c9c69420ceaad376</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">6643f78bc3265a106dd09d777d01315a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 10:47:34</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:01:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

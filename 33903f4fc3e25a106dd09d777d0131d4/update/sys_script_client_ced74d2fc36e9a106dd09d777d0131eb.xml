@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Assign the record to the respective group based on Asset Type.</description>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ced74d2fc36e9a106dd09d777d0131eb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Assign asset typeto the respective group</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Asset Management" source="x_snc_it_asset_man">33903f4fc3e25a106dd09d777d0131d4</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="IT Asset Management">33903f4fc3e25a106dd09d777d0131d4</sys_scope>
         <sys_update_name>sys_script_client_ced74d2fc36e9a106dd09d777d0131eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-26 06:04:14</sys_updated_on>
+        <sys_updated_on>2025-01-10 16:40:02</sys_updated_on>
         <table>x_snc_it_asset_man_asset_request</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>
