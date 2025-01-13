@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_it_asset_man_asset_request" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">c034bca0c3f6de106dd09d777d0131d3</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">8834bca0c3f6de106dd09d777d0131d1</sys_ui_section>
+            <sys_ui_section caption="Activity records" display_value="Activity records" name="x_snc_it_asset_man_asset_request" sys_domain="global" view="Default view">8834bca0c3f6de106dd09d777d0131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-12-27 10:36:29</sys_updated_on>
         </sys_ui_form_section>

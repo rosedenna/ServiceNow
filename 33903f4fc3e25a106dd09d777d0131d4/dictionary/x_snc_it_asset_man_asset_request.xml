@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="87d1f70bc3265a106dd09d777d0131e8" label="Asset Request" max_length="40" name="x_snc_it_asset_man_asset_request" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Asset" max_length="32" name="asset" reference="cmdb_ci" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="Submitted"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="Closed"/>
+                <element inactive_on_update="false" label="In Process" sequence="1" value="In Process"/>
+                <element inactive_on_update="false" label="Dispatched" sequence="2" value="Dispatched"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="5" value="Closed Incomplete"/>
+                <element inactive_on_update="false" label="Delivered" sequence="3" value="Delivered"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="short description" max_length="40" name="deccription" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="type_of_asset" dependent_on_field="type_of_asset" label="Consumables" max_length="40" name="consumables" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="printer" inactive_on_update="false" label="HP" value="hp"/>
+                <element dependent_value="ups" inactive_on_update="false" label="Vertiv Group" value="vertiv_group"/>
+                <element dependent_value="printer" inactive_on_update="false" label="Xerox" value="xerox"/>
+                <element dependent_value="ups" inactive_on_update="false" label="Schneider Electric" value="schneider_electric"/>
+                <element dependent_value="computer" inactive_on_update="false" label="Keyboard" value="keyboard"/>
+                <element dependent_value="network gear" inactive_on_update="false" label="Network Switch" value="network_switch"/>
+                <element dependent_value="network gear" inactive_on_update="false" label="Router" value="router"/>
+                <element dependent_value="printer" inactive_on_update="false" label="Epson" value="epson"/>
+                <element dependent_value="computer" inactive_on_update="false" label="Speaker" value="speaker"/>
+                <element dependent_value="ups" inactive_on_update="false" label="Eaton"/>
+                <element dependent_value="computer" inactive_on_update="false" label="Mouse" value="mouse"/>
+                <element dependent_value="network gear" inactive_on_update="false" label="Modem" value="modem"/>
+                <element dependent_value="printer" inactive_on_update="false" label="Canon" value="canon"/>
+                <element dependent_value="ups" inactive_on_update="false" label="ABB" value="abb"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="short description" max_length="4000" name="short_discription" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Opened By" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3" value="3"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+                <element inactive_on_update="false" label="1" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="work note" max_length="4000" name="work_note" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="comments" max_length="20" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Asset" max_length="40" name="type_of_asset" type="string">
+            <choice>
+                <element inactive_on_update="false" label="UPS" sequence="3" value="ups"/>
+                <element inactive_on_update="false" label="Computer" sequence="0" value="computer"/>
+                <element inactive_on_update="false" label="Network Gear" sequence="1" value="network gear"/>
+                <element inactive_on_update="false" label="Printer" sequence="2" value="printer"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index4">
+            <element name="company"/>
+        </index>
+        <index name="index5">
+            <element name="opened_by"/>
+        </index>
+        <index name="index6">
+            <element name="requestor"/>
+        </index>
+        <index name="index7">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
